@@ -16,3 +16,7 @@ Pamiętaj - zaczynamy od testów jednostkowych, potem integracyjne, na końcu te
 
 Zadanie dodatkowe:
 Program dalej ma ukryty problem, który powoduje niedomyślne zakończenie programu. Spróbuj to wyłapać i napisać test. Podpowiedź - coś z usuwaniem studentów ;)
+
+
+## Pytania na kolokwium :)
+Jaka jest różnica pomiędzy testami jednostkowymi/integracyjnymi/e2e ?
