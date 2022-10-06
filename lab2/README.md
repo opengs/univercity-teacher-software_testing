@@ -8,10 +8,10 @@ W tym laboratorium:
 
 [Artykuł](https://codeahoy.com/2016/07/05/unit-integration-and-end-to-end-tests-finding-the-right-balance/) o testach i ich porównaniu.
 
-## Tok działan
+## Tok działań
 
 Zadanie:
-Muszisz naprawić kod tak, żeby wszystkie testy "były na zielono" (zakończyły się sukcesem). Wystartuj `pytest` i zobacz co tam się dzieje.
+Musisz naprawić kod tak, żeby wszystkie testy "były na zielono" (zakończyły się sukcesem). Wystartuj `pytest` i zobacz co tam się dzieje.
 Pamiętaj - zaczynamy od testów jednostkowych, potem integracyjne, na końcu testy E2E. W kodzie znajdziesz podpowiedzi jak to naprawić.
 
 Zadanie dodatkowe:
