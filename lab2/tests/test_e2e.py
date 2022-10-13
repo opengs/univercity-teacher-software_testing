@@ -10,10 +10,10 @@ def test_userCase():
 
     #TODO: check this test, read and uncomment parts. Try to understand the purpose of the test and how it is implemented
     #TODO: remove next line. It just shows that this test is not implemented
-    #raise NotImplementedError()
+    raise NotImplementedError()
 
     db = StudentDatabase()
-    students_data = [(i, "Name " + i) for i in range(10)]
+    students_data = [[str(i), "Name" + str(i)] for i in range(10)]
 
 
 
@@ -34,7 +34,10 @@ def test_userCase():
     #assert run_command(db, f"remove 9")
 
     # TODO: get students from the database and compare if theirs data is same that expected
+    #student_name_map = {student[0]:student[1] for student in students_data}
+
     #students_from_db = db.list()
     #assert len(students_from_db) == len(students_data)
     #for idx, db_student in enumerate(students_from_db):
-    #    assert students_from_db[idx].name == students_data[idx][1]
+    #    assert db_student.id in student_name_map
+    #    assert db_student.name == student_name_map[db_student.id]
