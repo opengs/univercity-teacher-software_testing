@@ -1,0 +1,1 @@
+W folderze znajdziesz pliki `main.py`, `weather_lib.py` i `test_weather.py`. Sprawdź program w `main.py`. Przepisz ten program tak, żeby wypisywał tylko aktualną nazwę miasta i temperaturę powietrza. Napisz testy za pomocą pakietu `pytest_mock`
